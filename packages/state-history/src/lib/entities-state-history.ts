@@ -6,7 +6,8 @@ import {
   filterNil,
   StoreValue,
 } from '@ngneat/elf';
-import { Subscription, pairwise, filter, map, startWith } from 'rxjs';
+import { Subscription } from 'rxjs';
+import { pairwise, filter, map, startWith } from 'rxjs/operators';
 import {
   EntitiesState,
   getIdType,
